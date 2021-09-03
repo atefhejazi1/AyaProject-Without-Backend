@@ -1,0 +1,303 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    line-height: 1.4;
+    position:relative;
+}
+
+
+.sec1{
+    float: right;
+    position: absolute;
+   width: 800px;
+    padding-top: 60px;
+   
+}
+#contact{
+    float: right;
+    color: aliceblue;
+    position: absolute;
+    top:-4px;
+    
+
+   
+  
+}
+.contact-list{
+    margin: 0px;
+    float: left;
+    
+    
+}
+.contact-lis{
+    margin: 30px;
+    
+    color: #454141;
+    
+}
+a {
+    text-decoration: none;
+    
+}
+
+p {
+    margin: 0.75rem 0;
+}
+.m-heading{
+    margin-right: 10px;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+.bg-primary1{
+    background-color: #93cb52;
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+}
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    background: #93cb52;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.btn:hover {
+    background:#454141 ;
+    
+}
+
+.btn-dark {
+    background: #7ab436;
+    color: #fff;
+}
+
+.list {
+    margin: 0.5rem 0;
+    list-style: none;
+}
+
+.list li {
+    padding: 0.5rem 0;
+    border-bottom:  dotted 1px;
+}
+label{
+    margin-bottom: 4px;
+    margin-right: 5px;
+}
+
+/* Navbar */
+#navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: rgb(51, 51, 51, 0.7);
+    color: #fff;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1rem;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar ul li a {
+    color: #fff;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover {
+    background: #93cb52;
+    border-radius: 5px;
+}
+
+
+
+/* Section: Contact */
+
+#contact {
+    display: flex;
+    position: absolute;
+    width: 800px;
+    right: 460px;
+    padding-top: 60px;
+    margin-top: 60px;
+   
+   
+    
+}
+
+#contact .google-maps,
+#contact .contact-form {
+    flex: 1;
+}
+
+#contact .contact-form .form-group {
+    margin: 0.75rem;
+}
+
+#contact .contact-form label {
+    display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 15px;
+}
+
+.google-maps {
+    background: url("../images/img/FB_IMG_1624293477626.jpg") no-repeat center center/cover;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    
+}
+
+/* Align icon to left */
+#what .items .item {
+    display: flex;
+    text-align: center;
+}
+
+/* Position icon */
+#what .items .item i {
+    margin-right: 1.3rem;
+    align-self: center;
+    margin-bottom: 0;
+}
+
+#contact .map {
+    flex: 2;
+}
+
+#what .items {
+    display: block;
+    padding: 1rem;
+}
+
+/* Align icon to left */
+#what .items .item {
+    display: flex;
+    text-align: right;
+}
+
+/* Position icon */
+#what .items .item i {
+    margin-left: 1.3rem;
+    align-self: center;
+    margin-bottom: 0;
+}
+
+/* Smartphones */
+@media(max-width: 500px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar .logo {
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    #navbar ul {
+        padding: 0.5rem;
+    }
+
+    #showcase .showcase-content {
+        top: 110px;
+    }
+
+    #who {
+        display: block;
+    }
+
+    #who .who-img {
+        display: none;
+    }
+
+    #clients .items img {
+        width: 80%;
+    }
+
+    #clients .items div:last-child {
+        display: none;
+    }
+
+    #contact {
+        flex-direction: column;
+    }
+
+    #contact .map {
+        height: 200px;
+        border-top: 4px solid #333;
+    }
+}
+
+
+@media(max-height: 568px) {
+    #showcase .showcase-content {
+        margin-top: -2rem;
+        top: 140px;
+    }
+
+    .l-heading {
+        font-size: 3rem;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+}
+
+.footerlink{
+    
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: .2rem;
+    
+    
+    
+}
+.footerlink:hover{
+    text-decoration: none;
+    color: #93cb52;
+    
+    
+}
+.footerlink1{
+    display: block;
+    text-decoration: none;
+    margin: 0px;
+    padding-top: 12px;
+    padding-left: 30px;
+    border: 0px;
+    float: right;
+    
+}
+footer{
+    position: absolute;
+    right: 0;
+    top:588px;
+    left: 0;
+}
+
+    
